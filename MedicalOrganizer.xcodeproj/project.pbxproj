@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		139E999F1F6CACA1005E481F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E999E1F6CACA1005E481F /* AppDelegate.swift */; };
-		139E99A11F6CACA1005E481F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99A01F6CACA1005E481F /* FirstViewController.swift */; };
 		139E99A31F6CACA1005E481F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99A21F6CACA1005E481F /* SecondViewController.swift */; };
 		139E99A61F6CACA1005E481F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139E99A41F6CACA1005E481F /* Main.storyboard */; };
 		139E99A81F6CACA1005E481F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139E99A71F6CACA1005E481F /* Assets.xcassets */; };
 		139E99AB1F6CACA1005E481F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139E99A91F6CACA1005E481F /* LaunchScreen.storyboard */; };
+		139E99B51F6D631D005E481F /* AddMedicalRecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99B41F6D631D005E481F /* AddMedicalRecordsViewController.swift */; };
+		139E99B71F6D636B005E481F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99B61F6D636B005E481F /* SignInViewController.swift */; };
+		139E99D71F6D7588005E481F /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99D61F6D7588005E481F /* Activity.swift */; };
+		139E99DB1F6D7A46005E481F /* ActivitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99DA1F6D7A46005E481F /* ActivitiesTableViewController.swift */; };
+		139E99E31F6D9A0D005E481F /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99E21F6D9A0D005E481F /* ActivityTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		139E999B1F6CACA1005E481F /* MedicalOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		139E999E1F6CACA1005E481F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		139E99A01F6CACA1005E481F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		139E99A21F6CACA1005E481F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		139E99A51F6CACA1005E481F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		139E99A71F6CACA1005E481F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		139E99AA1F6CACA1005E481F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		139E99AC1F6CACA1005E481F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139E99B41F6D631D005E481F /* AddMedicalRecordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddMedicalRecordsViewController.swift; path = ../AddMedicalRecordsViewController.swift; sourceTree = "<group>"; };
+		139E99B61F6D636B005E481F /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		139E99D61F6D7588005E481F /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		139E99DA1F6D7A46005E481F /* ActivitiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivitiesTableViewController.swift; path = ../ActivitiesTableViewController.swift; sourceTree = "<group>"; };
+		139E99E21F6D9A0D005E481F /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 		139E999D1F6CACA1005E481F /* MedicalOrganizer */ = {
 			isa = PBXGroup;
 			children = (
+				139E99DA1F6D7A46005E481F /* ActivitiesTableViewController.swift */,
+				139E99E21F6D9A0D005E481F /* ActivityTableViewCell.swift */,
+				139E99B41F6D631D005E481F /* AddMedicalRecordsViewController.swift */,
 				139E999E1F6CACA1005E481F /* AppDelegate.swift */,
-				139E99A01F6CACA1005E481F /* FirstViewController.swift */,
+				139E99D61F6D7588005E481F /* Activity.swift */,
 				139E99A21F6CACA1005E481F /* SecondViewController.swift */,
 				139E99A41F6CACA1005E481F /* Main.storyboard */,
+				139E99B61F6D636B005E481F /* SignInViewController.swift */,
 				139E99A71F6CACA1005E481F /* Assets.xcassets */,
 				139E99A91F6CACA1005E481F /* LaunchScreen.storyboard */,
 				139E99AC1F6CACA1005E481F /* Info.plist */,
@@ -139,9 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				139E99DB1F6D7A46005E481F /* ActivitiesTableViewController.swift in Sources */,
 				139E99A31F6CACA1005E481F /* SecondViewController.swift in Sources */,
+				139E99B51F6D631D005E481F /* AddMedicalRecordsViewController.swift in Sources */,
+				139E99D71F6D7588005E481F /* Activity.swift in Sources */,
+				139E99E31F6D9A0D005E481F /* ActivityTableViewCell.swift in Sources */,
 				139E999F1F6CACA1005E481F /* AppDelegate.swift in Sources */,
-				139E99A11F6CACA1005E481F /* FirstViewController.swift in Sources */,
+				139E99B71F6D636B005E481F /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

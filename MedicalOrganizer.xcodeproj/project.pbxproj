@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		139E999F1F6CACA1005E481F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E999E1F6CACA1005E481F /* AppDelegate.swift */; };
+		139E99A11F6CACA1005E481F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99A01F6CACA1005E481F /* FirstViewController.swift */; };
+		139E99A31F6CACA1005E481F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99A21F6CACA1005E481F /* SecondViewController.swift */; };
+		139E99A61F6CACA1005E481F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139E99A41F6CACA1005E481F /* Main.storyboard */; };
+		139E99A81F6CACA1005E481F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139E99A71F6CACA1005E481F /* Assets.xcassets */; };
+		139E99AB1F6CACA1005E481F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139E99A91F6CACA1005E481F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		139E999B1F6CACA1005E481F /* MedicalOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		139E999E1F6CACA1005E481F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		139E99A01F6CACA1005E481F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		139E99A21F6CACA1005E481F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		139E99A51F6CACA1005E481F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		139E99A71F6CACA1005E481F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		139E99AA1F6CACA1005E481F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		139E99AC1F6CACA1005E481F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		139E99981F6CACA1005E481F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139E99921F6CACA1005E481F = {
+			isa = PBXGroup;
+			children = (
+				139E999D1F6CACA1005E481F /* MedicalOrganizer */,
+				139E999C1F6CACA1005E481F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		139E999C1F6CACA1005E481F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139E999B1F6CACA1005E481F /* MedicalOrganizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139E999D1F6CACA1005E481F /* MedicalOrganizer */ = {
+			isa = PBXGroup;
+			children = (
+				139E999E1F6CACA1005E481F /* AppDelegate.swift */,
+				139E99A01F6CACA1005E481F /* FirstViewController.swift */,
+				139E99A21F6CACA1005E481F /* SecondViewController.swift */,
+				139E99A41F6CACA1005E481F /* Main.storyboard */,
+				139E99A71F6CACA1005E481F /* Assets.xcassets */,
+				139E99A91F6CACA1005E481F /* LaunchScreen.storyboard */,
+				139E99AC1F6CACA1005E481F /* Info.plist */,
+			);
+			path = MedicalOrganizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		139E999A1F6CACA1005E481F /* MedicalOrganizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139E99AF1F6CACA1005E481F /* Build configuration list for PBXNativeTarget "MedicalOrganizer" */;
+			buildPhases = (
+				139E99971F6CACA1005E481F /* Sources */,
+				139E99981F6CACA1005E481F /* Frameworks */,
+				139E99991F6CACA1005E481F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicalOrganizer;
+			productName = MedicalOrganizer;
+			productReference = 139E999B1F6CACA1005E481F /* MedicalOrganizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		139E99931F6CACA1005E481F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yiqin Zhou";
+				TargetAttributes = {
+					139E999A1F6CACA1005E481F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 139E99961F6CACA1005E481F /* Build configuration list for PBXProject "MedicalOrganizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 139E99921F6CACA1005E481F;
+			productRefGroup = 139E999C1F6CACA1005E481F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				139E999A1F6CACA1005E481F /* MedicalOrganizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		139E99991F6CACA1005E481F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139E99AB1F6CACA1005E481F /* LaunchScreen.storyboard in Resources */,
+				139E99A81F6CACA1005E481F /* Assets.xcassets in Resources */,
+				139E99A61F6CACA1005E481F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		139E99971F6CACA1005E481F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139E99A31F6CACA1005E481F /* SecondViewController.swift in Sources */,
+				139E999F1F6CACA1005E481F /* AppDelegate.swift in Sources */,
+				139E99A11F6CACA1005E481F /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		139E99A41F6CACA1005E481F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				139E99A51F6CACA1005E481F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		139E99A91F6CACA1005E481F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				139E99AA1F6CACA1005E481F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		139E99AD1F6CACA1005E481F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		139E99AE1F6CACA1005E481F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		139E99B01F6CACA1005E481F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedicalOrganizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yiqin-Zhou.MedicalOrganizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		139E99B11F6CACA1005E481F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedicalOrganizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yiqin-Zhou.MedicalOrganizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		139E99961F6CACA1005E481F /* Build configuration list for PBXProject "MedicalOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139E99AD1F6CACA1005E481F /* Debug */,
+				139E99AE1F6CACA1005E481F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		139E99AF1F6CACA1005E481F /* Build configuration list for PBXNativeTarget "MedicalOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139E99B01F6CACA1005E481F /* Debug */,
+				139E99B11F6CACA1005E481F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 139E99931F6CACA1005E481F /* Project object */;
+}

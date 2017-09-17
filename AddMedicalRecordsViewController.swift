@@ -9,12 +9,18 @@
 import UIKit
 
 class AddMedicalRecordsViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    var delegate: ActivityDelegate?
+    var activityTableViewController: ActivitiesTableViewController?
 
     @IBOutlet weak var Images: UIImageView!
     @IBOutlet weak var Description: UITextView!
     @IBOutlet weak var Date: UIDatePicker!
     @IBOutlet weak var Save: UIButton!
     @IBOutlet weak var Cancel: UIButton!
+    
+  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,6 +40,14 @@ class AddMedicalRecordsViewController: UIViewController, UIImagePickerController
     
     
     @IBAction func SaveEntry(_: Any) {
+      
+      
+        activityTableViewController?.readyToAdd(date: "2016-9-19", description: Description.text, image: Images.image!)
+    
+        delegate?.readyToAdd(date: "2016-9-19", description: Description.text, image: Images.image!)
+        
+        
+        activityTableViewController?.tableView?.reloadData()
         self.dismiss(animated: true, completion: nil)
         
         
@@ -49,7 +63,7 @@ class AddMedicalRecordsViewController: UIViewController, UIImagePickerController
     }
    
   
- 
+  
     
     //MARK: UIImagePickerControllerDelegate
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController){

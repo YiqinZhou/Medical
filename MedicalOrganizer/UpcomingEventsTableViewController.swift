@@ -1,5 +1,5 @@
 //
-//  ActivitiesTableViewController.swift
+//  UpcomingEventsTableViewController.swift
 //  MedicalOrganizer
 //
 //  Created by ZhouYiqin on 9/16/17.
@@ -8,47 +8,38 @@
 
 import UIKit
 
-class ActivitiesTableViewController: UITableViewController, ActivityDelegate {
-    
+class UpcomingEventsTableViewController: UITableViewController, upcomingDelegate {
+
     var activities: [Activity]=[]
     
-    var image: UIImage?
-    
-    
-  
-   
-    
-    
-    
-   
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        activities.append(Activity(date: "2017-6-9", description: "Blood test", image: image))
-            
-        activities.append(Activity(date: "2017-1-12", description: "Immunization",image:image))
+     
+        activities.append(Activity(date: "2017-12-30", description: "Blood test", time: "8:00",location:"Student Health"))
+        activities.append(Activity(date: "2017-12-12", description: "HPV shot", time: "9:00", location:"DRM Hospital"))
+        activities.append(Activity(date: "2017-10-17", description: "Appointment", time: "9:00", location:"Dr Cortez"))
         self.tableView.reloadData()
         
-
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-
+        
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     // MARK: - Table view data source
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return activities.count
@@ -56,25 +47,22 @@ class ActivitiesTableViewController: UITableViewController, ActivityDelegate {
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "activityCell", for: indexPath)
-        as! ActivityTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "upcomingCell", for: indexPath)
+            as! UpcomingTableViewCell
         
-               // Configure the cell...
+        // Configure the cell...
+        cell.Date?.text=activities[indexPath.row].date
+        cell.Description?.text=activities[indexPath.row].description
+        cell.Time?.text=activities[indexPath.row].time
+        cell.Location?.text=activities[indexPath.row].location
         
-              cell.DateLabel?.text=activities[indexPath.row].date
-              cell.DescriptionLabel?.text=activities[indexPath.row].description
-        
-              
-
-        
-                return cell
-           }
-    
+        return cell
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
-        if (segue.identifier == "newActivity"){
+        if (segue.identifier == "newUpcoming"){
             let ActivityNavigationController = segue.destination as! UINavigationController
-            let ActivityViewController = ActivityNavigationController.topViewController as! AddMedicalRecordsViewController
+            let ActivityViewController = ActivityNavigationController.topViewController as! AddUpcomingViewController
             
             ActivityViewController.delegate = self
             
@@ -86,23 +74,31 @@ class ActivitiesTableViewController: UITableViewController, ActivityDelegate {
     
     
     
-    func readyToAdd(date: String, description: String,image:UIImage){
-        self.activities.append(Activity(date:date, description:description,image:image))
+    func readyToAdd(date: String, description: String,time: String, location: String){
+        self.activities.append(Activity(date:date, description:description,time: time, location:location))
         self.tableView?.reloadData()
     }
     
-  
- 
- 
+
     
-  
+    
+    
+    
     
     
     
     
 
-    
-    
+    /*
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+
+        // Configure the cell...
+
+        return cell
+    }
+    */
+
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

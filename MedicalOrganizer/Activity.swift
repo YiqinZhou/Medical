@@ -12,17 +12,31 @@ import UIKit
 class Activity{
     var date: String?
     var description: String?
+    var time: String?
+    var location: String?
+    var image: UIImage?
 
    
+   
     
-    init(date: String?, description: String?) {
+    init(date: String?, description: String?, image:UIImage?) {
         self.date=date
         self.description=description
-      
-       
-       
+        self.image=image
+        
         
     }
+    
+    
+    init(date: String?, description: String?, time:String?, location: String?) {
+        self.date=date
+        self.description=description
+        self.time=time
+        self.location=location
+        
+    }
+    
+    
     
 
 }

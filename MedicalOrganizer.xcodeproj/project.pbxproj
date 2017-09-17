@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003399DE9107BD7458A6BAFC /* Pods_MedicalOrganizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0DF938D52B33C377859C20 /* Pods_MedicalOrganizer.framework */; };
 		139E999F1F6CACA1005E481F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E999E1F6CACA1005E481F /* AppDelegate.swift */; };
-		139E99A31F6CACA1005E481F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99A21F6CACA1005E481F /* SecondViewController.swift */; };
 		139E99A61F6CACA1005E481F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139E99A41F6CACA1005E481F /* Main.storyboard */; };
 		139E99A81F6CACA1005E481F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139E99A71F6CACA1005E481F /* Assets.xcassets */; };
 		139E99AB1F6CACA1005E481F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139E99A91F6CACA1005E481F /* LaunchScreen.storyboard */; };
@@ -17,12 +17,19 @@
 		139E99D71F6D7588005E481F /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99D61F6D7588005E481F /* Activity.swift */; };
 		139E99DB1F6D7A46005E481F /* ActivitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99DA1F6D7A46005E481F /* ActivitiesTableViewController.swift */; };
 		139E99E31F6D9A0D005E481F /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99E21F6D9A0D005E481F /* ActivityTableViewCell.swift */; };
+		139E99F11F6DBA92005E481F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99F01F6DBA92005E481F /* MapViewController.swift */; };
+		139E99F31F6DBEF0005E481F /* Clinics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99F21F6DBEF0005E481F /* Clinics.swift */; };
+		139E99F71F6DD644005E481F /* UpcomingEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99F61F6DD644005E481F /* UpcomingEventsTableViewController.swift */; };
+		139E99F91F6DD84F005E481F /* UpcomingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99F81F6DD84F005E481F /* UpcomingTableViewCell.swift */; };
+		139E99FB1F6DDD43005E481F /* AddUpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99FA1F6DDD43005E481F /* AddUpcomingViewController.swift */; };
+		139E99FD1F6E2AFC005E481F /* ActivityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E99FC1F6E2AFC005E481F /* ActivityDelegate.swift */; };
+		139E9A051F6E3E4B005E481F /* p1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 139E9A041F6E3E4B005E481F /* p1.jpg */; };
+		139E9A071F6E41D3005E481F /* upcomingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139E9A061F6E41D3005E481F /* upcomingDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		139E999B1F6CACA1005E481F /* MedicalOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		139E999E1F6CACA1005E481F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		139E99A21F6CACA1005E481F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		139E99A51F6CACA1005E481F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		139E99A71F6CACA1005E481F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		139E99AA1F6CACA1005E481F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +39,17 @@
 		139E99D61F6D7588005E481F /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		139E99DA1F6D7A46005E481F /* ActivitiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivitiesTableViewController.swift; path = ../ActivitiesTableViewController.swift; sourceTree = "<group>"; };
 		139E99E21F6D9A0D005E481F /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		139E99F01F6DBA92005E481F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		139E99F21F6DBEF0005E481F /* Clinics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clinics.swift; sourceTree = "<group>"; };
+		139E99F61F6DD644005E481F /* UpcomingEventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingEventsTableViewController.swift; sourceTree = "<group>"; };
+		139E99F81F6DD84F005E481F /* UpcomingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingTableViewCell.swift; sourceTree = "<group>"; };
+		139E99FA1F6DDD43005E481F /* AddUpcomingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUpcomingViewController.swift; sourceTree = "<group>"; };
+		139E99FC1F6E2AFC005E481F /* ActivityDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityDelegate.swift; sourceTree = "<group>"; };
+		139E9A041F6E3E4B005E481F /* p1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p1.jpg; sourceTree = "<group>"; };
+		139E9A061F6E41D3005E481F /* upcomingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = upcomingDelegate.swift; sourceTree = "<group>"; };
+		4CAD13B0280953830B215587 /* Pods-MedicalOrganizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalOrganizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalOrganizer/Pods-MedicalOrganizer.debug.xcconfig"; sourceTree = "<group>"; };
+		6E0DF938D52B33C377859C20 /* Pods_MedicalOrganizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalOrganizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0C69471D4D00C4D79E3963 /* Pods-MedicalOrganizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalOrganizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalOrganizer/Pods-MedicalOrganizer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003399DE9107BD7458A6BAFC /* Pods_MedicalOrganizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +69,8 @@
 			children = (
 				139E999D1F6CACA1005E481F /* MedicalOrganizer */,
 				139E999C1F6CACA1005E481F /* Products */,
+				17346E7BAA7389AD28372CDB /* Pods */,
+				6E9C7B3E3D9EC452BC9013CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,19 +85,43 @@
 		139E999D1F6CACA1005E481F /* MedicalOrganizer */ = {
 			isa = PBXGroup;
 			children = (
+				139E9A041F6E3E4B005E481F /* p1.jpg */,
 				139E99DA1F6D7A46005E481F /* ActivitiesTableViewController.swift */,
 				139E99E21F6D9A0D005E481F /* ActivityTableViewCell.swift */,
 				139E99B41F6D631D005E481F /* AddMedicalRecordsViewController.swift */,
+				139E99FC1F6E2AFC005E481F /* ActivityDelegate.swift */,
 				139E999E1F6CACA1005E481F /* AppDelegate.swift */,
 				139E99D61F6D7588005E481F /* Activity.swift */,
-				139E99A21F6CACA1005E481F /* SecondViewController.swift */,
 				139E99A41F6CACA1005E481F /* Main.storyboard */,
+				139E99FA1F6DDD43005E481F /* AddUpcomingViewController.swift */,
+				139E9A061F6E41D3005E481F /* upcomingDelegate.swift */,
+				139E99F81F6DD84F005E481F /* UpcomingTableViewCell.swift */,
+				139E99F61F6DD644005E481F /* UpcomingEventsTableViewController.swift */,
+				139E99F01F6DBA92005E481F /* MapViewController.swift */,
+				139E99F21F6DBEF0005E481F /* Clinics.swift */,
 				139E99B61F6D636B005E481F /* SignInViewController.swift */,
 				139E99A71F6CACA1005E481F /* Assets.xcassets */,
 				139E99A91F6CACA1005E481F /* LaunchScreen.storyboard */,
 				139E99AC1F6CACA1005E481F /* Info.plist */,
 			);
 			path = MedicalOrganizer;
+			sourceTree = "<group>";
+		};
+		17346E7BAA7389AD28372CDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CAD13B0280953830B215587 /* Pods-MedicalOrganizer.debug.xcconfig */,
+				AF0C69471D4D00C4D79E3963 /* Pods-MedicalOrganizer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E9C7B3E3D9EC452BC9013CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E0DF938D52B33C377859C20 /* Pods_MedicalOrganizer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 139E99AF1F6CACA1005E481F /* Build configuration list for PBXNativeTarget "MedicalOrganizer" */;
 			buildPhases = (
+				1ECC48895EA3CB5E00A9CCED /* [CP] Check Pods Manifest.lock */,
 				139E99971F6CACA1005E481F /* Sources */,
 				139E99981F6CACA1005E481F /* Frameworks */,
 				139E99991F6CACA1005E481F /* Resources */,
+				E445AFB51DF3CC5EEE9AEA9E /* [CP] Embed Pods Frameworks */,
+				CB2FA468B072AFBD44319707 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,24 +188,79 @@
 			files = (
 				139E99AB1F6CACA1005E481F /* LaunchScreen.storyboard in Resources */,
 				139E99A81F6CACA1005E481F /* Assets.xcassets in Resources */,
+				139E9A051F6E3E4B005E481F /* p1.jpg in Resources */,
 				139E99A61F6CACA1005E481F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ECC48895EA3CB5E00A9CCED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB2FA468B072AFBD44319707 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicalOrganizer/Pods-MedicalOrganizer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E445AFB51DF3CC5EEE9AEA9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicalOrganizer/Pods-MedicalOrganizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		139E99971F6CACA1005E481F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				139E9A071F6E41D3005E481F /* upcomingDelegate.swift in Sources */,
 				139E99DB1F6D7A46005E481F /* ActivitiesTableViewController.swift in Sources */,
-				139E99A31F6CACA1005E481F /* SecondViewController.swift in Sources */,
 				139E99B51F6D631D005E481F /* AddMedicalRecordsViewController.swift in Sources */,
+				139E99F31F6DBEF0005E481F /* Clinics.swift in Sources */,
 				139E99D71F6D7588005E481F /* Activity.swift in Sources */,
 				139E99E31F6D9A0D005E481F /* ActivityTableViewCell.swift in Sources */,
+				139E99FB1F6DDD43005E481F /* AddUpcomingViewController.swift in Sources */,
+				139E99F91F6DD84F005E481F /* UpcomingTableViewCell.swift in Sources */,
 				139E999F1F6CACA1005E481F /* AppDelegate.swift in Sources */,
 				139E99B71F6D636B005E481F /* SignInViewController.swift in Sources */,
+				139E99FD1F6E2AFC005E481F /* ActivityDelegate.swift in Sources */,
+				139E99F71F6DD644005E481F /* UpcomingEventsTableViewController.swift in Sources */,
+				139E99F11F6DBA92005E481F /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +383,7 @@
 		};
 		139E99B01F6CACA1005E481F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CAD13B0280953830B215587 /* Pods-MedicalOrganizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MedicalOrganizer/Info.plist;
@@ -292,6 +396,7 @@
 		};
 		139E99B11F6CACA1005E481F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0C69471D4D00C4D79E3963 /* Pods-MedicalOrganizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MedicalOrganizer/Info.plist;
@@ -321,6 +426,7 @@
 				139E99B11F6CACA1005E481F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

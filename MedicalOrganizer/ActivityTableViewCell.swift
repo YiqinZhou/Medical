@@ -14,9 +14,16 @@ class ActivityTableViewCell: UITableViewCell {
     @IBOutlet weak var DateLabel: UILabel!
     
     @IBOutlet weak var ImageLabel: UIImageView!
+  
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+       
+        DateLabel.text = "whatever"
+        DateLabel.numberOfLines = 0
+        DateLabel.lineBreakMode = NSLineBreakMode.byWordWrapping
+        
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
